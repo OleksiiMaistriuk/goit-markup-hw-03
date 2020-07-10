@@ -23,8 +23,16 @@ body {
 }
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .title {
   font-weight: 700;
   font-size: 36px;
