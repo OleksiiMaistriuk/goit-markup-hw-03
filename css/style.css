@@ -30,6 +30,9 @@ h2,
 h3 {
   margin: 0px;
 }
+img {
+  display: inline-block;
+}
 .link {
   text-decoration: none;
   font-style: normal;
@@ -181,7 +184,6 @@ h3 {
 .our-nations-text {
   font-size: 14px;
   line-height: 1.7;
-
 }
 .our-nations-item {
   display: flex;
@@ -193,8 +195,9 @@ h3 {
   background-color: var(--button-background-color);
   border-radius: 4px;
   margin-bottom: 30px;
+}
 
-.our-nations-list:not (:last-child) {
+.our-nations-list:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -203,7 +206,9 @@ h3 {
 /* ---------------------------------------- */
 .what-are-we-doing-list {
   display: flex;
-  display: inline-block;
+}
+.what-are-we-doing-title {
+  padding-bottom: 50px;
 }
 .what-are-we-doing-text {
   font-weight: 700;
@@ -223,6 +228,9 @@ h3 {
 .team-item-title {
   font-weight: 500;
   color: var(--title-text-color);
+}
+.team-list {
+  display: flex;
 }
 /* ---------------------------------------- */
 /* foooter */
@@ -268,11 +276,3 @@ h3 {
   line-height: 1.87;
   color: var(--text-white-theme-color);
 }
-
-position: absolute;
-
-left: 815px;
-top: 774px;
-
-background: #f5f4fa;
-border-radius: 4px;
