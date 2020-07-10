@@ -25,9 +25,15 @@ body {
   color: var(--text-white-theme-color);
   letter-spacing: 0.03em;
 }
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
 .link {
   text-decoration: none;
   font-style: normal;
+  display: block;
 }
 .list {
   list-style: none;
@@ -40,6 +46,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  outline: 2px solid red;
 }
 .title {
   font-weight: 700;
@@ -67,6 +74,8 @@ body {
 /* ---------------------------------------- */
 /* header */
 /* ---------------------------------------- */
+.header {
+}
 .address-conteiner {
   margin-left: auto;
 }
@@ -92,6 +101,10 @@ body {
   color: var(--title-text-color);
   margin-right: 85px;
 }
+.navigation-link-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .navigation-list-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -105,6 +118,8 @@ body {
   font-size: 14px;
   line-height: 1.4;
   color: var(--title-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .navigation-address-link {
   color: var(--text-white-theme-color);
@@ -112,19 +127,16 @@ body {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* ---------------------------------------- */
 /* hero */
 /* ---------------------------------------- */
-.hero-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
+.hero .conteiner {
   text-align: center;
-  color: var(--text-dark-theme-color);
-  background-color: var(--accent-color);
+  margin-bottom: 94px;
 }
 .hero-title {
   font-weight: 900;
@@ -134,24 +146,65 @@ body {
   text-align: center;
   text-transform: uppercase;
   /* color: var(--text-dark-theme-color); */
+  margin: 0px;
+  padding-top: 200px;
 }
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--text-dark-theme-color);
+  background-color: var(--accent-color);
+  display: inline-block;
+  border-radius: 4px;
+  border-color: var(--accent-color);
+  padding: 10px 32px;
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
 /* ---------------------------------------- */
 /* our nations */
 /* ---------------------------------------- */
+.our-nations .conteiner {
+  margin-bottom: 94px;
+}
 .our-nations-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 .our-nations-text {
   font-size: 14px;
   line-height: 1.7;
+
 }
+.our-nations-item {
+  display: flex;
+}
+.our-nations-picture {
+  display: inline-block;
+  text-align: center;
+  padding: 25px 100px;
+  background-color: var(--button-background-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+
+.our-nations-list:not (:last-child) {
+  margin-right: 30px;
+}
+
 /* ---------------------------------------- */
 /* what are we doing */
 /* ---------------------------------------- */
+.what-are-we-doing-list {
+  display: flex;
+  display: inline-block;
+}
 .what-are-we-doing-text {
   font-weight: 700;
   font-size: 14px;
@@ -215,3 +268,11 @@ body {
   line-height: 1.87;
   color: var(--text-white-theme-color);
 }
+
+position: absolute;
+
+left: 815px;
+top: 774px;
+
+background: #f5f4fa;
+border-radius: 4px;
