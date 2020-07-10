@@ -1,3 +1,11 @@
+Html {
+  box-sixing: border-box;
+}
+*,
+*::before *::after {
+  box-sizing: inherit;
+}
+
 :root {
   --main-font: 'Roboto', sans-serif;
   --logo-font: 'Raleway', sans-serif;
@@ -59,6 +67,22 @@ body {
 /* ---------------------------------------- */
 /* header */
 /* ---------------------------------------- */
+.address-conteiner {
+  margin-left: auto;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation-list {
+  display: flex;
+}
+.navigation-adress {
+  display: flex;
+}
+.navigation-address-list-email {
+  margin-right: 30px;
+}
 .footer-logo,
 .navigation-link-logo {
   font-family: var(--logo-font);
@@ -66,8 +90,11 @@ body {
   font-size: 26px;
   line-height: 1.2;
   color: var(--title-text-color);
+  margin-right: 85px;
 }
-
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
 .footer-logo .web,
 .navigation-link-logo .web {
   color: var(--accent-color);
