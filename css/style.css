@@ -19,6 +19,7 @@ body {
 }
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 .list {
   list-style: none;
@@ -27,7 +28,7 @@ body {
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16px;
+  line-height: 1.16;
   text-align: center;
   color: var(--title-text-color);
 }
@@ -73,7 +74,7 @@ body {
 .navigation-address-link {
   color: var(--text-white-theme-color);
   font-weight: 500;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
@@ -96,6 +97,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.06em;
   text-align: center;
+  text-transform: uppercase;
   /* color: var(--text-dark-theme-color); */
 }
 /* ---------------------------------------- */
@@ -141,8 +143,12 @@ body {
   color: var(--text-dark-theme-color); 
 } */
 .footer-address-link {
+  font-style: normal;
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.7;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
   /* color: var(--text-dark-theme-color); */
 }
 .opasity-color {
