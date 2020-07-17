@@ -24,6 +24,8 @@ body {
   font-family: var(--main-font);
   color: var(--text-white-theme-color);
   letter-spacing: 0.03em;
+  margin: 0;
+  padding: 0;
 }
 h1,
 h2,
@@ -47,7 +49,7 @@ p {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 .title {
   font-weight: 700;
