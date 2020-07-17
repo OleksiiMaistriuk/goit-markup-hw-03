@@ -1,5 +1,5 @@
 Html {
-  box-sixing: border-box;
+  box-sizing: border-box;
 }
 *,
 *::before,
@@ -50,7 +50,7 @@ p {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 .title {
   font-weight: 700;
@@ -362,10 +362,6 @@ p {
 /* ---------------------------------------- */
 /* portfolio */
 /* ---------------------------------------- */
-.portfolio-filter-button:hover,
-.portfolio-filter-button:focus {
-  background-color: var(--accent-color);
-}
 .portfolio-filter-button {
   padding: 4px 22px;
   border-radius: 4px;
@@ -379,7 +375,6 @@ p {
 .portfolio-filter-list {
   display: flex;
   justify-content: center;
-  margin-top: 93px;
   margin-bottom: 34px;
 }
 .portfolio-filter-item:not(:last-child) {
@@ -389,6 +384,7 @@ p {
 .portfolio-filter-button:focus {
   color: var(--text-dark-theme-color);
   outline: none;
+  background-color: var(--accent-color);
 }
 .work-item-title {
   font-weight: 700;
@@ -422,6 +418,7 @@ p {
   margin-bottom: 30px;
   margin-right: 30px;
 }
-.works .conteiner {
+.portfolio-filter .conteiner {
   padding-bottom: 94px;
+  padding-top: 93px;
 }
