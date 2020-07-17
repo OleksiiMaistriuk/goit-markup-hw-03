@@ -2,7 +2,8 @@ Html {
   box-sixing: border-box;
 }
 *,
-*::before *::after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
